@@ -1,0 +1,19 @@
+{
+  "name": "envisage/module-next-day-delivery",
+  "version": "1.0.0",
+  "description": "The goal of this exercise is to create a new shipping method called Next Day Delivery with a flat rate cost.",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-shipping": "*",
+    "magento/module-sales": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Envisage\\NextDayDelivery\\": ""
+    }
+  }
+}

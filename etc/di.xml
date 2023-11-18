@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!--  This proxy class isn't needed right now, but I'll leave it here,
+            in case someone wants to inject the Magento\Backend\Model\Session\Quote class -->
+    <type name="Envisage\NextDayDelivery\Model\Carrier\NextDayDeliveryShippingMethod">
+        <arguments>
+            <argument name="quote" xsi:type="object">Magento\Backend\Model\Session\Quote\Proxy</argument>
+        </arguments>
+    </type>
+</config>

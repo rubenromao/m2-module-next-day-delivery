@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <nextdaydelivery>
+                <active>1</active>
+                <title>Flat Rate</title>
+                <name>Next Day Delivery</name>
+                <shipping_cost>10</shipping_cost>
+                <showmethod>1</showmethod>
+                <sort_order>10</sort_order>
+                <model>Envisage\NextDayDelivery\Model\Carrier\NextDayDeliveryShippingMethod</model>
+            </nextdaydelivery>
+        </carriers>
+    </default>
+</config>
