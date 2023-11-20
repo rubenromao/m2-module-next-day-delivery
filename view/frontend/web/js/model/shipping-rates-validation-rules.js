@@ -3,7 +3,7 @@ define([], function () {
 
     return {
         /**
-         * Here we can specify rules to display or not the Next Day Delivery shipping method based on address.
+         * Here we can specify validation rules for the "Next Day Delivery" shipping method.
          *
          * @return {Object}
          */
